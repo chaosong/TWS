@@ -61,7 +61,7 @@ class AppMain():
 
     def run(self):
         self.tws.run()
-
+        time.sleep(3)
         self.account_info()
         self.position_info()
         self.subscribe_info()

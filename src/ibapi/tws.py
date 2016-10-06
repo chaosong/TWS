@@ -29,10 +29,15 @@ class TWS(object):
         self.register()
         self.subscribe_symbols = {}
 
-        for s in config['MKT_DATA']['STOCK'].split(','):
-            self.subscribe(s)
-        for s in config['MKT_DATA']['OPTION'].split(','):
-            self.subscribe(s)
+    def subscribe_mkt_data(self):
+        if 'STOCK' in self.config['MKT_DATA']:
+            for s in self.config['MKT_DATA']['STOCK'].split(','):
+                if len(s) > 0:
+                    self.subscribe(s)
+        if 'OPTION' in self.config['MKT_DATA']:
+            for s in self.config['MKT_DATA']['OPTION'].split(','):
+                if len(s) > 0:
+                    self.subscribe(s)
 
     def get_connection(self):
         section = self.config['TWS']
@@ -61,6 +66,7 @@ class TWS(object):
     def run(self):
         self.conn.reqAccountUpdates(True, '')
         self.conn.reqIds(1)
+        self.subscribe_mkt_data()
         log.info('tws is running!')
 
     def stop(self):
