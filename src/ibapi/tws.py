@@ -108,24 +108,19 @@ class TWS(object):
 
     def buy(self, symbol, quantity, price=None):
         order_id = self.data['next_vid']
-        print("Orderid: ", order_id)
+        log.info("Orderid: ", order_id)
         contract = self.create_contract(symbol)
         order = self.create_order('BUY', quantity, price)
-        print(contract)
-        print(order)
         self.conn.placeOrder(order_id, contract, order)
         time.sleep(1)
         self.conn.reqIds(1)
-
         return order_id
 
     def sell(self, symbol, quantity, price=None):
         order_id = self.data['next_vid']
-        print("Orderid: ", order_id)
+        log.info("Orderid: ", order_id)
         contract = self.create_contract(symbol)
         order = self.create_order('SELL', quantity, price)
-        print(contract)
-        print(order)
         self.conn.placeOrder(order_id, contract, order)
         time.sleep(1)
         self.conn.reqIds(1)
@@ -133,16 +128,21 @@ class TWS(object):
 
     def cancel_order(self, order_id):
         self.conn.cancelOrder(order_id)
-        print("Cancel Order:", order_id)
+        log.info("Cancel Order:", order_id)
+
+    def cancel_all_orders(self):
+        orders = self.get_open_orders()
+        for order in orders:
+            self.cancel_order(order.order_id)
+        log.info('Orders of all canceled')
 
     def get_open_orders(self):
-        self.data['open_orders'] = []
+        self.data['open_orders'] = {}
         self.conn.reqAllOpenOrders()       # 该函数主动调用一次, 才会触发OpenOrder, OrderStatus事件
-
         while len(self.data['open_orders']) == 0:
             time.sleep(0.1)
             continue
-        return self.data['open_orders']
+        return self.data['open_orders'].values()
 
     def req_mkt_data(self, symbol, tick_id):
         # https://www.interactivebrokers.com/cn/software/api/apiguide/java/reqmktdata.htm
@@ -184,7 +184,6 @@ class TWS(object):
         self.mutex.acquire()
         for symbol, tick_id in self.subscribe_symbols.items():
             if tick_id not in self.handler.data['mkt_data']:
-                log.error('market data %s subscribe failed!', symbol)
                 continue
             data = self.handler.data['mkt_data'][tick_id]
             data.symbol = symbol
@@ -199,7 +198,6 @@ class TWS(object):
             if not symbol.find('_') > 0:
                 continue
             if tick_id not in self.handler.data['opt_greek']:
-                log.error('get option greek %s failed!', symbol)
                 continue
             data = self.handler.data['opt_greek'][tick_id]
             data.symbol = symbol

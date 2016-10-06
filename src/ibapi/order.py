@@ -25,14 +25,6 @@ class Status(Enum):
 class Order(IBOrder):
     def __init__(self):
         super(Order, self).__init__()
-        self.order_id
-        self.parent_id
-        self.status = None
-        self.filled = 0
-        self.remaining = 0
-        self.avg_filled_price = 0.0
-        self.last_filled_price = 0.0
-        self.why_held = ''
 
     @property
     def outsiderth(self):
@@ -90,3 +82,26 @@ class Order(IBOrder):
         d3 = {'LMT': '限价单', 'MKT': '市价单'}
         return '常规交易时间以外:{0}, 买/卖:{1}, 数量:{2}, 是否传送:{3}, 订单类型:{4}, 限价:{5}'.format(d1[self.outsiderth],
             d2[self.action], self.quantity, d1[self.transmit], d3[self.order_type], self.lmt_price)
+
+
+class OpenOrder(object):
+    def __init__(self):
+        self.order_id = 0
+        self.parent_id = 0
+        self.symbol = ''
+        self.action = ''
+        self.lmt_price = 0.0
+        self.quantity = 0
+        self.order_type = ''
+        self.status = None
+        self.filled = 0
+        self.remaining = 0
+        self.avg_filled_price = 0.0
+        self.last_filled_price = 0.0
+
+    def __str__(self):
+        return '订单id:{0}, 父订单id:{1}, 证券代码:{2}, 动作:{3}, 限价:{4}, 订单大小:{5}, 订单类型:{6}, 订单状态:{7}, 已成交:{8}, 剩余:{9}, 平均成交价:{10}, 最后成交价{11}'.format(
+            self.order_id, self.parent_id, self.symbol, self.action, self.lmt_price, self.quantity, self.order_type,
+            self.status, self.filled, self.remaining, self.avg_filled_price, self.last_filled_price
+        )
+

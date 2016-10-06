@@ -6,10 +6,12 @@ Created on 2016年10月01日
 @email:  gongqingyi@qq.com
 """
 
+import time
 import logging
 import functools
 from ib.opt import message
 from ibapi.tick import Tick, OptionGreek
+from ibapi.order import OpenOrder, Status
 from ibapi.account import Account
 from ibapi.position import Position
 import utility
@@ -68,6 +70,11 @@ class Handler(object):
     @staticmethod
     @handlermethod(message.tickGeneric)
     def hand_tick_generic(msg):
+        pass
+
+    @staticmethod
+    @handlermethod(message.openOrderEnd)
+    def hand_open_order_end(msg):
         pass
 
     @handlermethod(message.nextValidId)
@@ -206,13 +213,30 @@ class Handler(object):
     def hand_commission_report(msg):
         print('ID', msg.commissionReport.m_execId, 'COM', msg.commissionReport.m_commission)
 
-    @staticmethod
     @handlermethod(message.orderStatus)
-    def hand_order_status(msg):
-        print('Status==>:', msg)
+    def hand_order_status(self, msg):
+        while msg.orderId not in self.data['open_orders']:
+            time.sleep(0.1)
+        order = self.data['open_orders'][msg.orderId]
+        order.status = Status[msg.status]
+        order.filled = msg.filled
+        order.remaining = msg.remaining
+        order.avg_filled_price = msg.avgFillPrice
+        order.last_filled_price = msg.lastFillPrice
 
-    @staticmethod
     @handlermethod(message.openOrder)
-    def hand_open_orders(msg):
-        print('OpenOrder==>:', msg)
+    def hand_open_orders(self, msg):
+        order = OpenOrder()
+        order.order_id = msg.orderId
+        order.action = msg.order.m_action
+        order.lmt_price = msg.order.m_lmtPrice
+        order.parent_id = msg.order.m_parentId
+        order.quantity = msg.order.m_totalQuantity
+        order.order_type = msg.order.m_orderType
+        c = msg.contract
+        if c.m_secType == 'STK':
+            order.symbol = c.m_symbol
+        elif c.m_secType == 'OPT':
+            order.symbol = c.m_symbol + '_' + c.m_right + '_' + c.m_expiry + '_' + str(c.m_strike)
+        self.data['open_orders'][msg.orderId] = order
 

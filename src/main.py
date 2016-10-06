@@ -21,6 +21,9 @@ class AppMain():
 
     @async
     def account_info(self):
+        print("=====================================================")
+        print("                     账户信息                         ")
+        print("=====================================================")
         while True:
             account = self.tws.get_account()
             print('Account: ', account)
@@ -28,6 +31,9 @@ class AppMain():
 
     @async
     def position_info(self):
+        print("=====================================================")
+        print("                     头寸信息                         ")
+        print("=====================================================")
         while True:
             positions = self.tws.get_positions()
             for k, v in positions.items():
@@ -37,6 +43,9 @@ class AppMain():
 
     @async
     def subscribe_info(self):
+        print("=====================================================")
+        print("                     订阅数据                         ")
+        print("=====================================================")
         while True:
             for v in self.tws.get_subscribe_data():
                 print(v)
@@ -46,6 +55,9 @@ class AppMain():
 
     @async
     def opt_greek_info(self):
+        print("=====================================================")
+        print("                     期权数据                         ")
+        print("=====================================================")
         while True:
             for v in self.tws.get_option_greek():
                 print(v)
@@ -54,21 +66,28 @@ class AppMain():
 
     @async
     def order_info(self):
+        print("=====================================================")
+        print("                     挂单信息                         ")
+        print("=====================================================")
         while True:
             orders = self.tws.get_open_orders()
+            for order in orders:
+                print(order)
+                print('-----------------------------------------')
             time.sleep(3)
 
 
     def run(self):
         self.tws.run()
-        time.sleep(3)
+        time.sleep(1)
         self.account_info()
         self.position_info()
         self.subscribe_info()
         self.opt_greek_info()
         self.order_info()
 
-        #id1 = self.tws.buy('UVXY', 1, 2.5)
+
+        #id1 = self.tws.buy('UVXY', 25000, 16.2)
         #self.tws.cancel_order(id1)
         #time.sleep(2)
         #id2 = self.tws.sell('UVXY', 1, 45.0)
