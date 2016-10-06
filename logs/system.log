@@ -1,0 +1,370 @@
+['2016-10-04 12:41:59'][root][INFO][main.py:85] System start!
+['2016-10-04 12:42:00'][root][INFO][tws.py:50] tws connected!
+['2016-10-04 12:42:00'][root][INFO][tws.py:60] register done!
+['2016-10-04 12:42:00'][root][INFO][tws.py:165] market data [ UVXY ] subscribed!
+['2016-10-04 12:42:00'][root][INFO][tws.py:165] market data [ SVXY ] subscribed!
+['2016-10-04 12:42:00'][root][INFO][tws.py:165] market data [ UWTI ] subscribed!
+['2016-10-04 12:42:00'][root][INFO][tws.py:165] market data [ DWTI ] subscribed!
+['2016-10-04 12:42:00'][root][INFO][tws.py:165] market data [ UVXY_20180119_1_P ] subscribed!
+['2016-10-04 12:42:00'][root][INFO][tws.py:165] market data [ UVXY_20180119_1_C ] subscribed!
+['2016-10-04 12:42:00'][root][INFO][tws.py:65] tws is running!
+['2016-10-04 12:42:00'][root][ERROR][tws.py:182] market data UVXY subscribe failed!
+['2016-10-04 12:42:00'][root][ERROR][tws.py:182] market data SVXY subscribe failed!
+['2016-10-04 12:42:00'][root][ERROR][tws.py:182] market data UVXY_20180119_1_P subscribe failed!
+['2016-10-04 12:42:00'][root][ERROR][tws.py:182] market data DWTI subscribe failed!
+['2016-10-04 12:42:00'][root][ERROR][tws.py:182] market data UWTI subscribe failed!
+['2016-10-04 12:42:00'][root][ERROR][tws.py:182] market data UVXY_20180119_1_C subscribe failed!
+['2016-10-04 12:42:00'][root][ERROR][tws.py:197] get option greek UVXY_20180119_1_P failed!
+['2016-10-04 12:42:00'][root][ERROR][tws.py:197] get option greek UVXY_20180119_1_C failed!
+['2016-10-04 12:42:00'][root][INFO][handler.py:41] Watch All: <openOrderEnd>
+['2016-10-04 12:42:03'][root][ERROR][tws.py:197] get option greek UVXY_20180119_1_P failed!
+['2016-10-04 12:42:03'][root][ERROR][tws.py:197] get option greek UVXY_20180119_1_C failed!
+['2016-10-05 05:26:27'][root][INFO][main.py:85] System start!
+['2016-10-05 05:26:28'][root][INFO][tws.py:50] tws connected!
+['2016-10-05 05:26:28'][root][INFO][tws.py:60] register done!
+['2016-10-05 05:26:28'][root][INFO][tws.py:165] market data [ UVXY ] subscribed!
+['2016-10-05 05:26:28'][root][INFO][tws.py:165] market data [ SVXY ] subscribed!
+['2016-10-05 05:26:28'][root][INFO][tws.py:165] market data [ UWTI ] subscribed!
+['2016-10-05 05:26:28'][root][INFO][tws.py:165] market data [ DWTI ] subscribed!
+['2016-10-05 05:26:28'][root][INFO][tws.py:165] market data [ UVXY_20180119_1_P ] subscribed!
+['2016-10-05 05:26:28'][root][INFO][tws.py:165] market data [ UVXY_20180119_1_C ] subscribed!
+['2016-10-05 05:26:28'][root][INFO][tws.py:65] tws is running!
+['2016-10-05 05:26:28'][root][ERROR][tws.py:182] market data DWTI subscribe failed!
+['2016-10-05 05:26:28'][root][ERROR][tws.py:182] market data UVXY_20180119_1_P subscribe failed!
+['2016-10-05 05:26:28'][root][ERROR][tws.py:182] market data SVXY subscribe failed!
+['2016-10-05 05:26:28'][root][ERROR][tws.py:182] market data UVXY subscribe failed!
+['2016-10-05 05:26:28'][root][ERROR][tws.py:182] market data UVXY_20180119_1_C subscribe failed!
+['2016-10-05 05:26:28'][root][ERROR][tws.py:182] market data UWTI subscribe failed!
+['2016-10-05 05:26:28'][root][ERROR][tws.py:197] get option greek UVXY_20180119_1_P failed!
+['2016-10-05 05:26:28'][root][ERROR][tws.py:197] get option greek UVXY_20180119_1_C failed!
+['2016-10-05 05:26:28'][root][INFO][handler.py:41] Watch All: <openOrderEnd>
+['2016-10-05 05:26:30'][root][ERROR][handler.py:46] Server Error: <error id=-1, errorCode=2104, errorMsg=Market data farm connection is OK:usopt>
+['2016-10-05 05:33:00'][root][INFO][main.py:85] System start!
+['2016-10-05 05:33:01'][root][INFO][tws.py:50] tws connected!
+['2016-10-05 05:33:01'][root][INFO][tws.py:60] register done!
+['2016-10-05 05:33:01'][root][INFO][tws.py:165] market data [ UVXY ] subscribed!
+['2016-10-05 05:33:01'][root][INFO][tws.py:165] market data [ SVXY ] subscribed!
+['2016-10-05 05:33:01'][root][INFO][tws.py:165] market data [ UWTI ] subscribed!
+['2016-10-05 05:33:01'][root][INFO][tws.py:165] market data [ DWTI ] subscribed!
+['2016-10-05 05:33:01'][root][INFO][tws.py:165] market data [ UVXY_20180119_1_P ] subscribed!
+['2016-10-05 05:33:01'][root][INFO][tws.py:165] market data [ UVXY_20180119_1_C ] subscribed!
+['2016-10-05 05:33:01'][root][INFO][tws.py:65] tws is running!
+['2016-10-05 05:33:01'][root][INFO][handler.py:41] Watch All: <openOrderEnd>
+['2016-10-05 05:33:02'][root][ERROR][handler.py:46] Server Error: <error id=-1, errorCode=2104, errorMsg=Market data farm connection is OK:usopt>
+['2016-10-05 05:43:16'][root][INFO][main.py:85] System start!
+['2016-10-05 05:43:17'][root][INFO][tws.py:50] tws connected!
+['2016-10-05 05:43:17'][root][INFO][tws.py:60] register done!
+['2016-10-05 05:43:17'][root][INFO][tws.py:165] market data [ UVXY ] subscribed!
+['2016-10-05 05:43:17'][root][INFO][tws.py:165] market data [ SVXY ] subscribed!
+['2016-10-05 05:43:17'][root][INFO][tws.py:165] market data [ UWTI ] subscribed!
+['2016-10-05 05:43:17'][root][INFO][tws.py:165] market data [ DWTI ] subscribed!
+['2016-10-05 05:43:17'][root][INFO][tws.py:165] market data [ UVXY_20180119_1_P ] subscribed!
+['2016-10-05 05:43:17'][root][INFO][tws.py:165] market data [ UVXY_20180119_1_C ] subscribed!
+['2016-10-05 05:43:17'][root][INFO][tws.py:65] tws is running!
+['2016-10-05 05:43:17'][root][ERROR][handler.py:78] Next Valid Id Error!
+['2016-10-05 05:43:19'][root][ERROR][handler.py:46] Server Error: <error id=-1, errorCode=2104, errorMsg=Market data farm connection is OK:usopt>
+['2016-10-05 05:43:53'][root][INFO][main.py:85] System start!
+['2016-10-05 05:43:54'][root][INFO][tws.py:50] tws connected!
+['2016-10-05 05:43:54'][root][INFO][tws.py:60] register done!
+['2016-10-05 05:43:54'][root][INFO][tws.py:165] market data [ UVXY ] subscribed!
+['2016-10-05 05:43:54'][root][INFO][tws.py:165] market data [ SVXY ] subscribed!
+['2016-10-05 05:43:54'][root][INFO][tws.py:165] market data [ UWTI ] subscribed!
+['2016-10-05 05:43:54'][root][INFO][tws.py:165] market data [ DWTI ] subscribed!
+['2016-10-05 05:43:54'][root][INFO][tws.py:165] market data [ UVXY_20180119_1_P ] subscribed!
+['2016-10-05 05:43:54'][root][INFO][tws.py:165] market data [ UVXY_20180119_1_C ] subscribed!
+['2016-10-05 05:43:54'][root][INFO][tws.py:65] tws is running!
+['2016-10-05 05:43:54'][root][ERROR][handler.py:78] Next Valid Id Error!
+['2016-10-05 05:43:54'][root][INFO][handler.py:41] Watch All: <openOrderEnd>
+['2016-10-05 05:43:55'][root][ERROR][handler.py:46] Server Error: <error id=-1, errorCode=2104, errorMsg=Market data farm connection is OK:usopt>
+['2016-10-05 05:44:48'][root][INFO][main.py:85] System start!
+['2016-10-05 05:44:49'][root][INFO][tws.py:50] tws connected!
+['2016-10-05 05:44:49'][root][INFO][tws.py:60] register done!
+['2016-10-05 05:44:49'][root][INFO][tws.py:166] market data [ UVXY ] subscribed!
+['2016-10-05 05:44:49'][root][INFO][tws.py:166] market data [ SVXY ] subscribed!
+['2016-10-05 05:44:49'][root][INFO][tws.py:166] market data [ UWTI ] subscribed!
+['2016-10-05 05:44:49'][root][INFO][tws.py:166] market data [ DWTI ] subscribed!
+['2016-10-05 05:44:49'][root][INFO][tws.py:166] market data [ UVXY_20180119_1_P ] subscribed!
+['2016-10-05 05:44:49'][root][INFO][tws.py:166] market data [ UVXY_20180119_1_C ] subscribed!
+['2016-10-05 05:44:49'][root][INFO][tws.py:65] tws is running!
+['2016-10-05 05:44:49'][root][ERROR][handler.py:78] Next Valid Id Error!
+['2016-10-05 05:44:49'][root][INFO][handler.py:41] Watch All: <openOrderEnd>
+['2016-10-05 05:46:11'][root][INFO][main.py:85] System start!
+['2016-10-05 05:46:12'][root][INFO][tws.py:50] tws connected!
+['2016-10-05 05:46:12'][root][INFO][tws.py:60] register done!
+['2016-10-05 05:46:12'][root][INFO][tws.py:166] market data [ UVXY ] subscribed!
+['2016-10-05 05:46:12'][root][INFO][tws.py:166] market data [ SVXY ] subscribed!
+['2016-10-05 05:46:12'][root][INFO][tws.py:166] market data [ UWTI ] subscribed!
+['2016-10-05 05:46:12'][root][INFO][tws.py:166] market data [ DWTI ] subscribed!
+['2016-10-05 05:46:12'][root][INFO][tws.py:166] market data [ UVXY_20180119_1_P ] subscribed!
+['2016-10-05 05:46:12'][root][INFO][tws.py:166] market data [ UVXY_20180119_1_C ] subscribed!
+['2016-10-05 05:46:12'][root][INFO][tws.py:65] tws is running!
+['2016-10-05 05:46:12'][root][ERROR][handler.py:79] Next Valid Id Error!
+['2016-10-05 05:46:12'][root][INFO][handler.py:41] Watch All: <openOrderEnd>
+['2016-10-05 05:48:34'][root][INFO][main.py:85] System start!
+['2016-10-05 05:48:35'][root][INFO][tws.py:50] tws connected!
+['2016-10-05 05:48:35'][root][INFO][tws.py:60] register done!
+['2016-10-05 05:48:35'][root][INFO][tws.py:166] market data [ UVXY ] subscribed!
+['2016-10-05 05:48:35'][root][INFO][tws.py:166] market data [ SVXY ] subscribed!
+['2016-10-05 05:48:35'][root][INFO][tws.py:166] market data [ UWTI ] subscribed!
+['2016-10-05 05:48:35'][root][INFO][tws.py:166] market data [ DWTI ] subscribed!
+['2016-10-05 05:48:35'][root][INFO][tws.py:166] market data [ UVXY_20180119_1_P ] subscribed!
+['2016-10-05 05:48:35'][root][INFO][tws.py:166] market data [ UVXY_20180119_1_C ] subscribed!
+['2016-10-05 05:48:35'][root][INFO][tws.py:65] tws is running!
+['2016-10-05 05:48:35'][ibpy][ERROR][dispatcher.py:48] Exception in message dispatch.  Handler 'hand_next_valid_id' for 'nextValidId'
+Traceback (most recent call last):
+  File "/Users/gongqingyi/anaconda/lib/python3.5/site-packages/ib/opt/dispatcher.py", line 44, in __call__
+    results.append(listener(message))
+  File "/Users/gongqingyi/TWS/src/ibapi/handler.py", line 24, in _wrapper
+    return handler(*args, **kwargs)
+  File "/Users/gongqingyi/TWS/src/ibapi/handler.py", line 74, in hand_next_valid_id
+    if self.data['next_vid'] < next_vid:
+NameError: name 'next_vid' is not defined
+['2016-10-05 05:48:35'][root][INFO][handler.py:41] Watch All: <openOrderEnd>
+['2016-10-05 05:49:11'][root][INFO][main.py:85] System start!
+['2016-10-05 05:49:12'][root][INFO][tws.py:50] tws connected!
+['2016-10-05 05:49:12'][root][INFO][tws.py:60] register done!
+['2016-10-05 05:49:12'][root][INFO][tws.py:166] market data [ UVXY ] subscribed!
+['2016-10-05 05:49:12'][root][INFO][tws.py:166] market data [ SVXY ] subscribed!
+['2016-10-05 05:49:12'][root][INFO][tws.py:166] market data [ UWTI ] subscribed!
+['2016-10-05 05:49:12'][root][INFO][tws.py:166] market data [ DWTI ] subscribed!
+['2016-10-05 05:49:12'][root][INFO][tws.py:166] market data [ UVXY_20180119_1_P ] subscribed!
+['2016-10-05 05:49:12'][root][INFO][tws.py:166] market data [ UVXY_20180119_1_C ] subscribed!
+['2016-10-05 05:49:12'][root][INFO][tws.py:65] tws is running!
+['2016-10-05 05:49:12'][root][INFO][handler.py:41] Watch All: <openOrderEnd>
+['2016-10-05 05:57:01'][root][INFO][main.py:85] System start!
+['2016-10-05 05:57:02'][root][INFO][tws.py:50] tws connected!
+['2016-10-05 05:57:02'][root][INFO][tws.py:60] register done!
+['2016-10-05 05:57:02'][root][INFO][tws.py:166] market data [ UVXY ] subscribed!
+['2016-10-05 05:57:02'][root][INFO][tws.py:166] market data [ SVXY ] subscribed!
+['2016-10-05 05:57:02'][root][INFO][tws.py:166] market data [ UWTI ] subscribed!
+['2016-10-05 05:57:02'][root][INFO][tws.py:166] market data [ DWTI ] subscribed!
+['2016-10-05 05:57:02'][root][INFO][tws.py:166] market data [ UVXY_20180119_1_P ] subscribed!
+['2016-10-05 05:57:02'][root][INFO][tws.py:166] market data [ UVXY_20180119_1_C ] subscribed!
+['2016-10-05 05:57:02'][root][INFO][tws.py:65] tws is running!
+['2016-10-05 05:57:02'][root][INFO][handler.py:42] Watch All: <openOrderEnd>
+['2016-10-05 05:57:04'][root][ERROR][handler.py:47] Server Error: <error id=-1, errorCode=2104, errorMsg=Market data farm connection is OK:usopt>
+['2016-10-05 06:01:52'][root][INFO][main.py:85] System start!
+['2016-10-05 06:01:53'][root][INFO][tws.py:50] tws connected!
+['2016-10-05 06:01:53'][root][INFO][tws.py:60] register done!
+['2016-10-05 06:01:53'][root][INFO][tws.py:166] market data [ UVXY ] subscribed!
+['2016-10-05 06:01:53'][root][INFO][tws.py:166] market data [ SVXY ] subscribed!
+['2016-10-05 06:01:53'][root][INFO][tws.py:166] market data [ UWTI ] subscribed!
+['2016-10-05 06:01:53'][root][INFO][tws.py:166] market data [ DWTI ] subscribed!
+['2016-10-05 06:01:53'][root][INFO][tws.py:166] market data [ UVXY_20180119_1_P ] subscribed!
+['2016-10-05 06:01:53'][root][INFO][tws.py:166] market data [ UVXY_20180119_1_C ] subscribed!
+['2016-10-05 06:01:53'][root][INFO][tws.py:65] tws is running!
+['2016-10-05 06:01:53'][root][INFO][handler.py:42] Watch All: <openOrderEnd>
+['2016-10-05 06:01:55'][root][ERROR][handler.py:47] Server Error: <error id=-1, errorCode=2104, errorMsg=Market data farm connection is OK:usopt>
+['2016-10-05 06:10:04'][root][INFO][main.py:85] System start!
+['2016-10-05 06:10:05'][root][INFO][tws.py:50] tws connected!
+['2016-10-05 06:10:05'][root][INFO][tws.py:60] register done!
+['2016-10-05 06:10:05'][root][INFO][tws.py:166] market data [ UVXY ] subscribed!
+['2016-10-05 06:10:05'][root][INFO][tws.py:166] market data [ SVXY ] subscribed!
+['2016-10-05 06:10:05'][root][INFO][tws.py:166] market data [ UWTI ] subscribed!
+['2016-10-05 06:10:05'][root][INFO][tws.py:166] market data [ DWTI ] subscribed!
+['2016-10-05 06:10:05'][root][INFO][tws.py:166] market data [ UVXY_20180119_1_P ] subscribed!
+['2016-10-05 06:10:05'][root][INFO][tws.py:166] market data [ UVXY_20180119_1_C ] subscribed!
+['2016-10-05 06:10:05'][root][INFO][tws.py:65] tws is running!
+['2016-10-05 06:10:05'][root][INFO][handler.py:42] Watch All: <openOrderEnd>
+['2016-10-05 06:10:07'][root][ERROR][handler.py:47] Server Error: <error id=-1, errorCode=2104, errorMsg=Market data farm connection is OK:usopt>
+['2016-10-05 06:16:11'][root][INFO][main.py:85] System start!
+['2016-10-05 06:16:12'][root][INFO][tws.py:50] tws connected!
+['2016-10-05 06:16:12'][root][INFO][tws.py:60] register done!
+['2016-10-05 06:16:12'][root][INFO][tws.py:166] market data [ UVXY ] subscribed!
+['2016-10-05 06:16:12'][root][INFO][tws.py:166] market data [ SVXY ] subscribed!
+['2016-10-05 06:16:12'][root][INFO][tws.py:166] market data [ UWTI ] subscribed!
+['2016-10-05 06:16:12'][root][INFO][tws.py:166] market data [ DWTI ] subscribed!
+['2016-10-05 06:16:12'][root][INFO][tws.py:166] market data [ UVXY_20180119_1_P ] subscribed!
+['2016-10-05 06:16:12'][root][INFO][tws.py:166] market data [ UVXY_20180119_1_C ] subscribed!
+['2016-10-05 06:16:12'][root][INFO][tws.py:65] tws is running!
+['2016-10-05 06:16:12'][root][INFO][handler.py:42] Watch All: <openOrderEnd>
+['2016-10-05 06:16:14'][root][ERROR][handler.py:47] Server Error: <error id=-1, errorCode=2104, errorMsg=Market data farm connection is OK:usopt>
+['2016-10-05 06:18:25'][root][INFO][main.py:85] System start!
+['2016-10-05 06:18:26'][root][INFO][tws.py:50] tws connected!
+['2016-10-05 06:18:26'][root][INFO][tws.py:60] register done!
+['2016-10-05 06:18:26'][root][INFO][tws.py:166] market data [ UVXY ] subscribed!
+['2016-10-05 06:18:26'][root][INFO][tws.py:166] market data [ SVXY ] subscribed!
+['2016-10-05 06:18:26'][root][INFO][tws.py:166] market data [ UWTI ] subscribed!
+['2016-10-05 06:18:26'][root][INFO][tws.py:166] market data [ DWTI ] subscribed!
+['2016-10-05 06:18:26'][root][INFO][tws.py:166] market data [ UVXY_20180119_1_P ] subscribed!
+['2016-10-05 06:18:26'][root][INFO][tws.py:166] market data [ UVXY_20180119_1_C ] subscribed!
+['2016-10-05 06:18:26'][root][INFO][tws.py:65] tws is running!
+['2016-10-05 06:18:26'][root][INFO][handler.py:42] Watch All: <openOrderEnd>
+['2016-10-05 06:18:28'][root][ERROR][handler.py:47] Server Error: <error id=-1, errorCode=2104, errorMsg=Market data farm connection is OK:usopt>
+['2016-10-05 06:18:39'][root][INFO][main.py:85] System start!
+['2016-10-05 06:18:40'][root][INFO][tws.py:50] tws connected!
+['2016-10-05 06:18:40'][root][INFO][tws.py:60] register done!
+['2016-10-05 06:18:40'][root][INFO][tws.py:166] market data [ UVXY ] subscribed!
+['2016-10-05 06:18:40'][root][INFO][tws.py:166] market data [ SVXY ] subscribed!
+['2016-10-05 06:18:40'][root][INFO][tws.py:166] market data [ UWTI ] subscribed!
+['2016-10-05 06:18:40'][root][INFO][tws.py:166] market data [ DWTI ] subscribed!
+['2016-10-05 06:18:40'][root][INFO][tws.py:166] market data [ UVXY_20180119_1_P ] subscribed!
+['2016-10-05 06:18:40'][root][INFO][tws.py:166] market data [ UVXY_20180119_1_C ] subscribed!
+['2016-10-05 06:18:40'][root][INFO][tws.py:65] tws is running!
+['2016-10-05 06:18:40'][root][INFO][handler.py:42] Watch All: <openOrderEnd>
+['2016-10-05 06:18:42'][root][ERROR][handler.py:47] Server Error: <error id=-1, errorCode=2104, errorMsg=Market data farm connection is OK:usopt>
+['2016-10-05 06:19:10'][root][INFO][main.py:85] System start!
+['2016-10-05 06:19:11'][root][INFO][tws.py:50] tws connected!
+['2016-10-05 06:19:11'][root][INFO][tws.py:60] register done!
+['2016-10-05 06:19:11'][root][INFO][tws.py:166] market data [ UVXY ] subscribed!
+['2016-10-05 06:19:11'][root][INFO][tws.py:166] market data [ SVXY ] subscribed!
+['2016-10-05 06:19:11'][root][INFO][tws.py:166] market data [ UWTI ] subscribed!
+['2016-10-05 06:19:11'][root][INFO][tws.py:166] market data [ DWTI ] subscribed!
+['2016-10-05 06:19:11'][root][INFO][tws.py:166] market data [ UVXY_20180119_1_P ] subscribed!
+['2016-10-05 06:19:11'][root][INFO][tws.py:166] market data [ UVXY_20180119_1_C ] subscribed!
+['2016-10-05 06:19:11'][root][INFO][tws.py:65] tws is running!
+['2016-10-05 06:19:11'][root][INFO][handler.py:42] Watch All: <openOrderEnd>
+['2016-10-05 06:19:48'][root][INFO][main.py:85] System start!
+['2016-10-05 06:19:49'][root][INFO][tws.py:50] tws connected!
+['2016-10-05 06:19:49'][root][INFO][tws.py:60] register done!
+['2016-10-05 06:19:49'][root][INFO][tws.py:166] market data [ UVXY ] subscribed!
+['2016-10-05 06:19:49'][root][INFO][tws.py:166] market data [ SVXY ] subscribed!
+['2016-10-05 06:19:49'][root][INFO][tws.py:166] market data [ UWTI ] subscribed!
+['2016-10-05 06:19:49'][root][INFO][tws.py:166] market data [ DWTI ] subscribed!
+['2016-10-05 06:19:49'][root][INFO][tws.py:166] market data [ UVXY_20180119_1_P ] subscribed!
+['2016-10-05 06:19:49'][root][INFO][tws.py:166] market data [ UVXY_20180119_1_C ] subscribed!
+['2016-10-05 06:19:49'][root][INFO][tws.py:65] tws is running!
+['2016-10-05 06:20:04'][root][INFO][main.py:85] System start!
+['2016-10-05 06:20:05'][root][INFO][tws.py:50] tws connected!
+['2016-10-05 06:20:05'][root][INFO][tws.py:60] register done!
+['2016-10-05 06:20:05'][root][INFO][tws.py:166] market data [ UVXY ] subscribed!
+['2016-10-05 06:20:05'][root][INFO][tws.py:166] market data [ SVXY ] subscribed!
+['2016-10-05 06:20:05'][root][INFO][tws.py:166] market data [ UWTI ] subscribed!
+['2016-10-05 06:20:05'][root][INFO][tws.py:166] market data [ DWTI ] subscribed!
+['2016-10-05 06:20:05'][root][INFO][tws.py:166] market data [ UVXY_20180119_1_P ] subscribed!
+['2016-10-05 06:20:05'][root][INFO][tws.py:166] market data [ UVXY_20180119_1_C ] subscribed!
+['2016-10-05 06:20:05'][root][INFO][tws.py:65] tws is running!
+['2016-10-05 06:20:05'][root][ERROR][handler.py:47] Server Error: <error id=-1, errorCode=321, errorMsg=Error validating request:-'bq' : cause - Only the default client (i.e 0) can auto bind orders>
+['2016-10-05 06:20:46'][root][INFO][main.py:85] System start!
+['2016-10-05 06:20:47'][root][INFO][tws.py:50] tws connected!
+['2016-10-05 06:20:47'][root][INFO][tws.py:60] register done!
+['2016-10-05 06:20:47'][root][INFO][tws.py:166] market data [ UVXY ] subscribed!
+['2016-10-05 06:20:47'][root][INFO][tws.py:166] market data [ SVXY ] subscribed!
+['2016-10-05 06:20:47'][root][INFO][tws.py:166] market data [ UWTI ] subscribed!
+['2016-10-05 06:20:47'][root][INFO][tws.py:166] market data [ DWTI ] subscribed!
+['2016-10-05 06:20:47'][root][INFO][tws.py:166] market data [ UVXY_20180119_1_P ] subscribed!
+['2016-10-05 06:20:47'][root][INFO][tws.py:166] market data [ UVXY_20180119_1_C ] subscribed!
+['2016-10-05 06:20:47'][root][INFO][tws.py:65] tws is running!
+['2016-10-05 06:21:06'][root][INFO][main.py:85] System start!
+['2016-10-05 06:21:07'][root][INFO][tws.py:50] tws connected!
+['2016-10-05 06:21:07'][root][INFO][tws.py:60] register done!
+['2016-10-05 06:21:07'][root][INFO][tws.py:166] market data [ UVXY ] subscribed!
+['2016-10-05 06:21:07'][root][INFO][tws.py:166] market data [ SVXY ] subscribed!
+['2016-10-05 06:21:07'][root][INFO][tws.py:166] market data [ UWTI ] subscribed!
+['2016-10-05 06:21:07'][root][INFO][tws.py:166] market data [ DWTI ] subscribed!
+['2016-10-05 06:21:07'][root][INFO][tws.py:166] market data [ UVXY_20180119_1_P ] subscribed!
+['2016-10-05 06:21:07'][root][INFO][tws.py:166] market data [ UVXY_20180119_1_C ] subscribed!
+['2016-10-05 06:21:07'][root][INFO][tws.py:65] tws is running!
+['2016-10-05 06:21:07'][root][INFO][handler.py:42] Watch All: <openOrderEnd>
+['2016-10-05 06:27:26'][root][INFO][main.py:85] System start!
+['2016-10-05 06:27:27'][root][INFO][tws.py:50] tws connected!
+['2016-10-05 06:27:27'][root][INFO][tws.py:60] register done!
+['2016-10-05 06:27:27'][root][INFO][tws.py:166] market data [ UVXY ] subscribed!
+['2016-10-05 06:27:27'][root][INFO][tws.py:166] market data [ SVXY ] subscribed!
+['2016-10-05 06:27:27'][root][INFO][tws.py:166] market data [ UWTI ] subscribed!
+['2016-10-05 06:27:27'][root][INFO][tws.py:166] market data [ DWTI ] subscribed!
+['2016-10-05 06:27:27'][root][INFO][tws.py:166] market data [ UVXY_20180119_1_P ] subscribed!
+['2016-10-05 06:27:27'][root][INFO][tws.py:166] market data [ UVXY_20180119_1_C ] subscribed!
+['2016-10-05 06:27:27'][root][INFO][tws.py:65] tws is running!
+['2016-10-05 06:27:27'][root][INFO][handler.py:42] Watch All: <openOrderEnd>
+['2016-10-05 06:27:29'][root][ERROR][handler.py:47] Server Error: <error id=-1, errorCode=2104, errorMsg=Market data farm connection is OK:usopt>
+['2016-10-05 06:30:03'][root][ERROR][handler.py:47] Server Error: <error id=-1, errorCode=1100, errorMsg=Connectivity between %SHORT_COMPNAME% and %SHORT_PRODNAME% has been lost.>
+['2016-10-05 06:30:06'][root][ERROR][handler.py:47] Server Error: <error id=-1, errorCode=1100, errorMsg=Connectivity between %SHORT_COMPNAME% and %SHORT_PRODNAME% has been lost.>
+['2016-10-05 06:30:11'][root][ERROR][handler.py:47] Server Error: <error id=-1, errorCode=1100, errorMsg=Connectivity between %SHORT_COMPNAME% and %SHORT_PRODNAME% has been lost.>
+['2016-10-05 06:30:21'][root][ERROR][handler.py:47] Server Error: <error id=-1, errorCode=1100, errorMsg=Connectivity between %SHORT_COMPNAME% and %SHORT_PRODNAME% has been lost.>
+['2016-10-05 06:30:26'][root][ERROR][handler.py:47] Server Error: <error id=-1, errorCode=1100, errorMsg=Connectivity between %SHORT_COMPNAME% and %SHORT_PRODNAME% has been lost.>
+['2016-10-05 06:30:40'][root][ERROR][handler.py:47] Server Error: <error id=-1, errorCode=2103, errorMsg=Market data farm connection is broken:hfarm>
+['2016-10-05 06:31:11'][root][ERROR][handler.py:47] Server Error: <error id=-1, errorCode=1100, errorMsg=Connectivity between %SHORT_COMPNAME% and %SHORT_PRODNAME% has been lost.>
+['2016-10-05 06:31:17'][root][ERROR][handler.py:47] Server Error: <error id=None, errorCode=None, errorMsg=unpack requires a bytes object of length 1>
+['2016-10-05 06:31:17'][root][INFO][handler.py:51] Connection Closed!
+['2016-10-05 06:32:16'][root][INFO][main.py:85] System start!
+['2016-10-05 06:32:17'][root][INFO][tws.py:50] tws connected!
+['2016-10-05 06:32:17'][root][INFO][tws.py:60] register done!
+['2016-10-05 06:32:17'][root][INFO][tws.py:166] market data [ UVXY ] subscribed!
+['2016-10-05 06:32:17'][root][INFO][tws.py:166] market data [ SVXY ] subscribed!
+['2016-10-05 06:32:17'][root][INFO][tws.py:166] market data [ UWTI ] subscribed!
+['2016-10-05 06:32:17'][root][INFO][tws.py:166] market data [ DWTI ] subscribed!
+['2016-10-05 06:32:17'][root][INFO][tws.py:166] market data [ UVXY_20180119_1_P ] subscribed!
+['2016-10-05 06:32:17'][root][INFO][tws.py:166] market data [ UVXY_20180119_1_C ] subscribed!
+['2016-10-05 06:32:17'][root][INFO][tws.py:65] tws is running!
+['2016-10-05 06:32:17'][root][INFO][handler.py:42] Watch All: <openOrderEnd>
+['2016-10-05 06:32:18'][root][ERROR][handler.py:47] Server Error: <error id=-1, errorCode=2103, errorMsg=Market data farm connection is broken:cashfarm>
+['2016-10-05 06:32:19'][root][ERROR][handler.py:47] Server Error: <error id=-1, errorCode=2104, errorMsg=Market data farm connection is OK:usopt>
+['2016-10-05 06:32:21'][root][ERROR][handler.py:47] Server Error: <error id=-1, errorCode=2105, errorMsg=HMDS data farm connection is broken:euhmds>
+['2016-10-05 06:32:21'][root][ERROR][handler.py:47] Server Error: <error id=-1, errorCode=2103, errorMsg=Market data farm connection is broken:eufarm>
+['2016-10-05 06:32:38'][root][ERROR][handler.py:47] Server Error: <error id=-1, errorCode=2103, errorMsg=Market data farm connection is broken:cashfarm>
+['2016-10-05 06:32:41'][root][ERROR][handler.py:47] Server Error: <error id=-1, errorCode=2103, errorMsg=Market data farm connection is broken:eufarm>
+['2016-10-05 06:32:41'][root][ERROR][handler.py:47] Server Error: <error id=-1, errorCode=2105, errorMsg=HMDS data farm connection is broken:euhmds>
+['2016-10-05 06:32:58'][root][ERROR][handler.py:47] Server Error: <error id=-1, errorCode=2103, errorMsg=Market data farm connection is broken:cashfarm>
+['2016-10-05 06:33:01'][root][ERROR][handler.py:47] Server Error: <error id=-1, errorCode=2103, errorMsg=Market data farm connection is broken:eufarm>
+['2016-10-05 06:33:01'][root][ERROR][handler.py:47] Server Error: <error id=-1, errorCode=2105, errorMsg=HMDS data farm connection is broken:euhmds>
+['2016-10-05 06:33:16'][root][ERROR][handler.py:47] Server Error: <error id=-1, errorCode=2104, errorMsg=Market data farm connection is OK:cashfarm>
+['2016-10-05 06:33:16'][root][ERROR][handler.py:47] Server Error: <error id=-1, errorCode=2104, errorMsg=Market data farm connection is OK:eufarm>
+['2016-10-05 06:33:16'][root][ERROR][handler.py:47] Server Error: <error id=-1, errorCode=2106, errorMsg=HMDS data farm connection is OK:euhmds>
+['2016-10-05 06:33:46'][root][INFO][main.py:85] System start!
+['2016-10-05 06:33:47'][root][INFO][tws.py:50] tws connected!
+['2016-10-05 06:33:47'][root][INFO][tws.py:60] register done!
+['2016-10-05 06:33:47'][root][INFO][tws.py:166] market data [ UVXY ] subscribed!
+['2016-10-05 06:33:47'][root][INFO][tws.py:166] market data [ SVXY ] subscribed!
+['2016-10-05 06:33:47'][root][INFO][tws.py:166] market data [ UWTI ] subscribed!
+['2016-10-05 06:33:47'][root][INFO][tws.py:166] market data [ DWTI ] subscribed!
+['2016-10-05 06:33:47'][root][INFO][tws.py:166] market data [ UVXY_20180119_1_P ] subscribed!
+['2016-10-05 06:33:47'][root][INFO][tws.py:166] market data [ UVXY_20180119_1_C ] subscribed!
+['2016-10-05 06:33:47'][root][INFO][tws.py:65] tws is running!
+['2016-10-05 06:33:47'][root][INFO][handler.py:42] Watch All: <openOrderEnd>
+['2016-10-05 06:33:56'][root][ERROR][handler.py:47] Server Error: <error id=-1, errorCode=2108, errorMsg=Market data farm connection is inactive but should be available upon demand.jfarm>
+['2016-10-05 06:33:56'][root][ERROR][handler.py:47] Server Error: <error id=-1, errorCode=2108, errorMsg=Market data farm connection is inactive but should be available upon demand.jfarm>
+['2016-10-05 06:33:56'][root][ERROR][handler.py:47] Server Error: <error id=-1, errorCode=2108, errorMsg=Market data farm connection is inactive but should be available upon demand.eufarm>
+['2016-10-05 06:33:56'][root][ERROR][handler.py:47] Server Error: <error id=-1, errorCode=2108, errorMsg=Market data farm connection is inactive but should be available upon demand.eufarm>
+['2016-10-05 06:33:56'][root][ERROR][handler.py:47] Server Error: <error id=-1, errorCode=2108, errorMsg=Market data farm connection is inactive but should be available upon demand.cashfarm>
+['2016-10-05 06:33:56'][root][ERROR][handler.py:47] Server Error: <error id=-1, errorCode=2108, errorMsg=Market data farm connection is inactive but should be available upon demand.cashfarm>
+['2016-10-05 06:40:28'][root][INFO][main.py:85] System start!
+['2016-10-05 06:40:29'][root][INFO][tws.py:50] tws connected!
+['2016-10-05 06:40:29'][root][INFO][tws.py:60] register done!
+['2016-10-05 06:40:29'][root][INFO][tws.py:166] market data [ UVXY ] subscribed!
+['2016-10-05 06:40:29'][root][INFO][tws.py:166] market data [ SVXY ] subscribed!
+['2016-10-05 06:40:29'][root][INFO][tws.py:166] market data [ UWTI ] subscribed!
+['2016-10-05 06:40:29'][root][INFO][tws.py:166] market data [ DWTI ] subscribed!
+['2016-10-05 06:40:29'][root][INFO][tws.py:166] market data [ UVXY_20180119_1_P ] subscribed!
+['2016-10-05 06:40:29'][root][INFO][tws.py:166] market data [ UVXY_20180119_1_C ] subscribed!
+['2016-10-05 06:40:29'][root][INFO][tws.py:65] tws is running!
+['2016-10-05 06:40:30'][root][ERROR][handler.py:47] Server Error: <error id=-1, errorCode=2104, errorMsg=Market data farm connection is OK:usopt>
+['2016-10-05 06:40:55'][root][INFO][main.py:85] System start!
+['2016-10-05 06:40:56'][root][INFO][tws.py:50] tws connected!
+['2016-10-05 06:40:56'][root][INFO][tws.py:60] register done!
+['2016-10-05 06:40:56'][root][INFO][tws.py:166] market data [ UVXY ] subscribed!
+['2016-10-05 06:40:56'][root][INFO][tws.py:166] market data [ SVXY ] subscribed!
+['2016-10-05 06:40:56'][root][INFO][tws.py:166] market data [ UWTI ] subscribed!
+['2016-10-05 06:40:56'][root][INFO][tws.py:166] market data [ DWTI ] subscribed!
+['2016-10-05 06:40:56'][root][INFO][tws.py:166] market data [ UVXY_20180119_1_P ] subscribed!
+['2016-10-05 06:40:56'][root][INFO][tws.py:166] market data [ UVXY_20180119_1_C ] subscribed!
+['2016-10-05 06:40:56'][root][INFO][tws.py:65] tws is running!
+['2016-10-05 06:40:57'][root][ERROR][handler.py:47] Server Error: <error id=-1, errorCode=2104, errorMsg=Market data farm connection is OK:usopt>
+['2016-10-05 08:44:34'][root][INFO][main.py:85] System start!
+['2016-10-05 08:44:35'][root][INFO][tws.py:50] tws connected!
+['2016-10-05 08:44:35'][root][INFO][tws.py:60] register done!
+['2016-10-05 08:44:35'][root][INFO][tws.py:166] market data [ UVXY ] subscribed!
+['2016-10-05 08:44:35'][root][INFO][tws.py:166] market data [ SVXY ] subscribed!
+['2016-10-05 08:44:35'][root][INFO][tws.py:166] market data [ UWTI ] subscribed!
+['2016-10-05 08:44:35'][root][INFO][tws.py:166] market data [ DWTI ] subscribed!
+['2016-10-05 08:44:35'][root][INFO][tws.py:166] market data [ UVXY_20180119_1_P ] subscribed!
+['2016-10-05 08:44:35'][root][INFO][tws.py:166] market data [ UVXY_20180119_1_C ] subscribed!
+['2016-10-05 08:44:35'][root][INFO][tws.py:65] tws is running!
+['2016-10-05 08:44:37'][root][ERROR][handler.py:47] Server Error: <error id=-1, errorCode=2104, errorMsg=Market data farm connection is OK:usopt>
+['2016-10-05 10:43:08'][root][INFO][main.py:85] System start!
+['2016-10-05 10:43:09'][root][INFO][tws.py:50] tws connected!
+['2016-10-05 10:43:09'][root][INFO][tws.py:60] register done!
+['2016-10-05 10:43:09'][root][INFO][tws.py:166] market data [ UVXY ] subscribed!
+['2016-10-05 10:43:09'][root][INFO][tws.py:166] market data [ SVXY ] subscribed!
+['2016-10-05 10:43:09'][root][INFO][tws.py:166] market data [ UWTI ] subscribed!
+['2016-10-05 10:43:09'][root][INFO][tws.py:166] market data [ DWTI ] subscribed!
+['2016-10-05 10:43:09'][root][INFO][tws.py:166] market data [ UVXY_20180119_1_P ] subscribed!
+['2016-10-05 10:43:09'][root][INFO][tws.py:166] market data [ UVXY_20180119_1_C ] subscribed!
+['2016-10-05 10:43:09'][root][INFO][tws.py:65] tws is running!
+['2016-10-05 10:43:09'][root][ERROR][tws.py:183] market data UVXY_20180119_1_C subscribe failed!
+['2016-10-05 10:43:09'][root][ERROR][tws.py:183] market data DWTI subscribe failed!
+['2016-10-05 10:43:09'][root][ERROR][tws.py:183] market data SVXY subscribe failed!
+['2016-10-05 10:43:09'][root][ERROR][tws.py:183] market data UWTI subscribe failed!
+['2016-10-05 10:43:09'][root][ERROR][tws.py:183] market data UVXY_20180119_1_P subscribe failed!
+['2016-10-05 10:43:09'][root][ERROR][tws.py:183] market data UVXY subscribe failed!
+['2016-10-05 10:43:11'][root][ERROR][handler.py:47] Server Error: <error id=-1, errorCode=2104, errorMsg=Market data farm connection is OK:usopt>
