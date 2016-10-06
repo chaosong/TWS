@@ -55,7 +55,6 @@ class AppMain():
     @async
     def order_info(self):
         while True:
-            print('Req Open Orders =========================================================>')
             orders = self.tws.get_open_orders()
             time.sleep(3)
 
@@ -66,14 +65,13 @@ class AppMain():
         self.account_info()
         self.position_info()
         self.subscribe_info()
-        #self.opt_greek_info()
-        #self.order_info()
+        self.opt_greek_info()
+        self.order_info()
 
-        time.sleep(100000)
-        id1 = self.tws.buy('UVXY', 1, 2.5)
+        #id1 = self.tws.buy('UVXY', 1, 2.5)
         #self.tws.cancel_order(id1)
-        time.sleep(2)
-        id2 = self.tws.sell('UVXY', 1, 45.0)
+        #time.sleep(2)
+        #id2 = self.tws.sell('UVXY', 1, 45.0)
         #self.tws.cancel_order(id2)
 
     def stop(self):
@@ -86,9 +84,6 @@ if __name__ == '__main__':
 
     app = AppMain()
     app.run()
-    time.sleep(1)
-
+    time.sleep(10000)
     app.stop()
-
-    time.sleep(10)
     log.info('System exit!')
